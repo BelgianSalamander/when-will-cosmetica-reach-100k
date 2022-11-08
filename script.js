@@ -64,7 +64,7 @@ function recalculate() {
 
             const timeNeeded = tsElapsed * 600;
 
-            document.getElementById("elem").innerHTML = "Cosmetica will reach 100k users in " + formatNicely(timeNeeded);
+            document.getElementById("elem").innerHTML = "Cosmetica will reach 100k users in " + formatNicely(timeNeeded) + " (probably)";
         
             setTimeout(recalculate, 10000);
         });
